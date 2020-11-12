@@ -22,9 +22,12 @@ python install.py
 - It needs 2 arguments:
     - First is the path to the unknown image. This should be a single image.
     - The second is the path to the folder where the known images are
-- The program will compare the single, unknown image with all the known images and return the name of the best matching image. Note that it is the best matching not the 100% matching!
+- The program will compare the single, unknown image with all the known images and return the name of the best matching image. Note that it is the best matching not the 100% matching! The result is the full name of the image, so that it is easier later to query, show, send this image.
 - The result will be printed onto the console and written into a `result.txt` file, next to the `main.py`. The content of the `result.txt` will be overwritten after every run, so only the latest result in the file.
 
 ```
->python main.py sample_unknown_images/unknown1.jpg sample_known_images
+python main.py sample_unknown_images/unknown1.jpg sample_known_images
 ```
+## Testing
+
+Due to the shortage of time, testing was limited to some manual testing. The test images used can be found under `sample_unknown_images` and `sample_known_images`
