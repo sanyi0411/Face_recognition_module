@@ -30,4 +30,6 @@ python main.py sample_unknown_images/unknown1.jpg sample_known_images
 ```
 ## Testing
 
-Due to the shortage of time, testing was limited to some manual testing. The test images used can be found under `sample_unknown_images` and `sample_known_images`
+Due to the shortage of time, testing was limited to some manual testing. The test images used can be found under `sample_unknown_images` and `sample_known_images`. Even with this you can see that quite nice results were achieved:
+
+![testing](./testing.jpg)
